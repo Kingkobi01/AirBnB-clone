@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: Poppins;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  padding: 1em;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .3);
+}
+
+.logo {
+  height: 40px;
+}
+
+.hero--body {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hero--body h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero--body p {
+  font-size: 1.2rem;
+  max-width: 37ch;
+  text-align: left;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+
+.sold-out {
+  color: red;
+  border-color: red;
+}
+
+.online {
+  color: rgb(17, 164, 17);
+  border-color: green;
+}
+
+.exp--thumbnail {
+  width: 254px;
+  position: relative;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  width: 14px;
+}
+
+.card--img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.grey {
+  color: #9f9c9c;
+}
+
+.status {
+  font-size: .8rem;
+  font-weight: 600;
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  background: #ede8e8;
+  padding: 5px 7px;
+  border-radius: 4px;
+  border: 1px solid rgb(80, 79, 79);
+}
+
+
+
+.stats>* {
+  margin-right: 5px;
+}
+
+.grey span {
+  color: #000;
+  font-weight: 700;
+}
+
+.experiences {
+  padding: 2em;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 1em;
+  overflow-x: scroll;
+}
